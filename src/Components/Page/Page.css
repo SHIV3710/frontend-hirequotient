@@ -30,13 +30,13 @@
     justify-content: space-between;
 }
 .icon{
-    min-width:2.5vw;
-    min-height:2.5vw;
+    width:1.5rem;
+    height:1.5rem;
     box-shadow: 2px 2px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 @media screen and (max-width:700px){
@@ -52,6 +52,10 @@
     }
     .noofpages{
         width:75%;
+    }
+    .icon{
+        height:1rem;
+        width:1rem;
     }
     
 }

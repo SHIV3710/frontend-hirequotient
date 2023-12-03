@@ -29,7 +29,8 @@
     width:25%;
     display: flex;
     justify-content: start;
-    overflow:unset;
+    overflow:hidden;
+    
 }
 .role{
     width:15%;
