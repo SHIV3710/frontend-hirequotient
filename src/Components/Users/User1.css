@@ -1,0 +1,9 @@
+.usermais{
+  height:100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  justify-content: flex-start;
+  row-gap: 2px;
+}

@@ -1,0 +1,36 @@
+.navmain{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:1%;
+    cursor: pointer;
+    gap:20px;
+}
+.value{
+    height:30px;
+    width:30%;
+    min-width:fit-content;
+    border: 1px solid rgb(223, 222, 222);
+    border-radius:5px;
+    padding-left:1%;
+    display: flex;
+    align-items: center;
+    color:gray;
+    font-family: 'Noto Sans', sans-serif;
+
+    &:focus{
+        outline: none;
+    }
+}
+.delete{
+    height:30px;
+    min-width:30px;
+    background-color: red;
+    border-radius:5px;
+    color:white;
+    font-size:larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+}
